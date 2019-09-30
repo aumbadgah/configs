@@ -3,7 +3,7 @@
 ### Run setup
 
 ```
-./install.sh
+curl https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/ubuntu.18.04/install.sh | bash
 ```
 
 ### Manual steps
