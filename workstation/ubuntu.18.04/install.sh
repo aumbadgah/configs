@@ -17,6 +17,9 @@ apt -y install \
 	curl \
 	wget \
 	git \
+	gnupg-agent \
+	ca-certificates \
+	apt-transport-https \
 	build-essential \
 	software-properties-common \
 	apt-transport-https \
@@ -50,6 +53,18 @@ cd /tmp \
 	&& apt -y update \
 	&& wget https://repo.nordvpn.com/gpg/nordvpn_public.asc -O - | sudo apt-key add - \
 	&& apt -y install nordvpn
+
+echo "**"
+echo "** Install Docker"
+echo "**"
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - \
+	&& apt-key fingerprint 0EBFCD88 \
+	&& add-apt-repository -y "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" \
+	&& apt -y update \
+	&& ip link add name docker0 type bridge \
+	&& ip addr add dev docker0 172.17.0.1/16 \
+	&& apt -y install docker-ce docker-ce-cli containerd.io
 
 echo "**"
 echo "** Install VS Code"
