@@ -29,7 +29,6 @@ echo "**"
 
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh \
 	&& cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc \
-	&& chsh -s $(which zsh) \
 	&& find /home -mindepth 1 -maxdepth 1 -type d -exec cp -rf ~/.oh-my-zsh {} \; \
 	&& find /home -mindepth 1 -maxdepth 1 -type d -exec cp ~/.oh-my-zsh/templates/zshrc.zsh-template {}/.zshrc \;
 
