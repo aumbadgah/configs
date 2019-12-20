@@ -1,6 +1,7 @@
 export ZSH="$(echo $HOME)/.oh-my-zsh"
 
 # ZSH_THEME="powerlevel9k/powerlevel9k"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
