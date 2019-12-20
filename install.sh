@@ -2,9 +2,28 @@
 
 set -ev
 
-if [ ! brew -v ]; then
-	echo 'no has brew'
+if [ ! brew ]; then
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
+
+brew install \
+	curl \
+	git \
+	jq \
+	libpng \
+	node \
+	nvm \
+	openssl \
+	pyenv \
+	telnet \
+	tig \
+	tmux \
+	yarn \
+	zlib \
+	zsh \
+	zsh-syntax-highlighting
+
+brew cask install iterm
 
 curl -o ~/.vimrc https://raw.githubusercontent.com/aumbadgah/configs/master/.vimrc
 curl -o ~/.tmux.conf https://raw.githubusercontent.com/aumbadgah/configs/master/.tmux.conf
