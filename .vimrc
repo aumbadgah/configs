@@ -12,6 +12,10 @@ set scrolloff=5
 " Fixes common backspace problems
 set backspace=indent,eol,start
 
+" Enable scrolling in Vim
+set ttymouse=xterm2
+set mouse=a
+
 " Speed up scrolling in Vim
 set ttyfast
 
