@@ -21,9 +21,9 @@ brew install \
 	yarn \
 	zlib \
 	zsh \
-	zsh-syntax-highlighting
+	zsh-syntax-highlighting | true
 
-brew cask install iterm
+brew cask install iterm | true
 
 curl -o ~/.vimrc https://raw.githubusercontent.com/aumbadgah/configs/master/.vimrc
 curl -o ~/.tmux.conf https://raw.githubusercontent.com/aumbadgah/configs/master/.tmux.conf
