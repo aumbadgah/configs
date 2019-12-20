@@ -21,9 +21,9 @@ brew install \
 	yarn \
 	zlib \
 	zsh \
-	zsh-syntax-highlighting
+	zsh-syntax-highlighting | true
 
-brew cask install iterm
+brew cask install iterm | true
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
