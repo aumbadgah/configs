@@ -23,15 +23,8 @@ brew install \
 	yarn \
 	zlib \
 	zsh \
-	zsh-syntax-highlighting | true
-
-brew cask install iterm | true
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-if [ ! -d "$ZSH_CUSTOM/themes/powerlevel10k" ]; then
-	git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-fi
+	zsh-syntax-highlighting
+brew cask install iterm2
 
 curl -o ~/.vimrc https://raw.githubusercontent.com/aumbadgah/configs/master/.vimrc
 curl -o ~/.tmux.conf https://raw.githubusercontent.com/aumbadgah/configs/master/.tmux.conf
