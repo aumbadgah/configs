@@ -3,7 +3,6 @@ echo ".zshrc"
 export ZSH="$(echo $HOME)/.oh-my-zsh"
 
 # ZSH_THEME="powerlevel9k/powerlevel9k"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
@@ -12,6 +11,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+git clone --depth=0 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 export PATH="/usr/local/sbin:$PATH"
 
