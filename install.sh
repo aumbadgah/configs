@@ -32,5 +32,3 @@ curl -o ~/.zshrc https://raw.githubusercontent.com/aumbadgah/configs/master/.zsh
 curl -o /usr/local/bin/reload-config-files https://raw.githubusercontent.com/aumbadgah/configs/master/bin/reload-config-files.sh
 chmod +x /usr/local/bin/reload-config-files
 
-reload-config-files
-
