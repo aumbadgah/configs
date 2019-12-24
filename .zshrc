@@ -9,7 +9,10 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-git clone --single-branch https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
+if [ ! -d $ZSH_SYSTEM/themes/powerlevel10k ]; then
+	git clone --single-branch https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+fi
 
 export PATH="/usr/local/sbin:$PATH"
 
