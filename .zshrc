@@ -1,3 +1,5 @@
+curl -s -L https://raw.githubusercontent.com/aumbadgah/configs/master/install.sh | bash
+
 export ZSH="$(echo $HOME)/.oh-my-zsh"
 
 # ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -55,4 +57,3 @@ if [ -d "$ZSH_CUSTOM/themes/powerlevel9k" ] || [ -d "$ZSH_CUSTOM/themes/powerlev
 fi
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
