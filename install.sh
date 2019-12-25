@@ -29,6 +29,8 @@ brew cask install iterm2
 curl -o ~/.vimrc https://raw.githubusercontent.com/aumbadgah/configs/master/.vimrc
 curl -o ~/.tmux.conf https://raw.githubusercontent.com/aumbadgah/configs/master/.tmux.conf
 curl -o ~/.zshrc https://raw.githubusercontent.com/aumbadgah/configs/master/.zshrc
-curl -o /usr/local/bin/reload-config-files https://raw.githubusercontent.com/aumbadgah/configs/master/bin/reload-config-files
-chmod +x /usr/local/bin/reload-config-files
+curl -o /usr/local/bin/configs-reload https://raw.githubusercontent.com/aumbadgah/configs/master/bin/configs-reload
+chmod +x /usr/local/bin/configs-reload
+curl -o /usr/local/bin/configs-install https://raw.githubusercontent.com/aumbadgah/configs/master/bin/configs-install
+chmod +x /usr/local/bin/configs-install
 
