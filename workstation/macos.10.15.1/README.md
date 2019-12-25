@@ -25,14 +25,11 @@ curl -s -L https://raw.githubusercontent.com/aumbadgah/configs/master/workstatio
 
 prefix `C + x`
 
-
 prefix + `.` split new pane vertically
 
 prefix + `:` split new pane horizontally
 
-
 prefix + `Arrow key` move to pane
-
 
 prefix + `i` reinstall configs from repo
 
