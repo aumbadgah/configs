@@ -13,3 +13,11 @@ curl https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/ubun
 - Setup NordVPN `nordvpn login` and `nordvpn connect`, see [https://support.nordvpn.com/Connectivity/Linux/1325531132/Installing-and-using-NordVPN-on-Debian-Ubuntu-and-Linux-Mint.htm](https://support.nordvpn.com/Connectivity/Linux/1325531132/Installing-and-using-NordVPN-on-Debian-Ubuntu-and-Linux-Mint.htm)
 - Setup Git credentials, see [https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 
+# Bahama
+
+- MSI B450 Gaming Plus
+- AMD Ryzen 5 3600
+- Asus ROG Strix NVIDIA GTX 1660 Ti
+- Crucial Ballistix Memory 2x 16GB
+- RTL8812BU WiFi
+
