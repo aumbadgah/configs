@@ -24,7 +24,7 @@ brew install \
 	yarn \
 	zlib \
 	zsh \
-	zsh-syntax-highlighting
+	zsh-syntax-highlighting | true
 brew cask install iterm2
 
 curl https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/macos.10.15.1/.vimrc > ~/.vimrc
