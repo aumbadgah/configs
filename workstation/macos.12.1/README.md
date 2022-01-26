@@ -10,13 +10,6 @@ Basic installations for macOS
 - iTerm2
 - other useful packages
 
-Configs
-
-- .tmux.conf
-- .vimrc
-- .zprofile
-- .zshrc
-
 
 ## Install
 
