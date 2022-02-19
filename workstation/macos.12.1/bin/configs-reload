@@ -1,5 +1,0 @@
-#!/usr/bin/env zsh
-
-tmux source-file ~/.tmux.conf
-source ~/.zshrc
-
