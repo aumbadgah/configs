@@ -1,5 +1,12 @@
 plugins=(
+  copybuffer
+  copydir
+  copyfile
+  dirhistory
   git
+  history
+  jsontools
+  sudo
   zsh-autosuggestions
   zsh-syntax-highlighting
   zsh-vi-mode
